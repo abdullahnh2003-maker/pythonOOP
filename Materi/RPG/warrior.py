@@ -1,0 +1,16 @@
+from hero import Hero
+
+class Warrior(Hero):
+    def __init__(self , name ,level , hp, mana):
+        #super() = memanggil class parent (hero)
+        # set role secara mage
+        super().__init__(name ,level , hp, mana , role="Warrior")
+        # print(f"💨 Hero {self.name} telah disummon")
+
+    def critical(self, target):
+        dmg = 80
+        print(f"{self.name} menggunakan: GIGANTIC SLASH!!")
+        print(f"👹{target.name} terkene critical {dmg} DMG!")
+        self.attack(target)
+        target.damaged(dmg)
+        
