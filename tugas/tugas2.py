@@ -12,13 +12,13 @@ class Hero:
             status = "☠️  mati"
 
         return f"[{self.name}] | hp: {self.hp} | status: {status}"
-
     
 
-    def ulti(self, enemy):
-        # self.hp -= 50
-        print(f"{self.name} menyerang {enemy.name} damage ")
 
+    def ulti(self, enemy):
+        # dmg = 50
+        print(f"{self.name} menyerang {enemy.name} damage ")
+        # enemy.take_damage(dmg)
 
     def take_damage(self, damage):
         # TODO:
