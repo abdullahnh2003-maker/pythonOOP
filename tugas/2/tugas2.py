@@ -80,7 +80,7 @@ alpha.ulti(turtle)
 vale.ulti(turtle)
 turtle.take_damage(100)
 print(turtle)
-print(f'\n karena darah turtle sisa 50 dia berubah menjadi lord')
+# print(f'\n karena darah turtle sisa 50 dia berubah menjadi lord')
 print(lord)
 
 print('\n ---peperangan ke 2 ---')
