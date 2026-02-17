@@ -1,0 +1,7 @@
+[BOOKS]
+Fathul Aly|Fiqh|3
+Tafsir Al-Muyassar|Tafsir|3
+Tamhidussabil|Nahwu|3
+Aqidatuna|Aqidah|2
+[LOANS]
+jony kurang kuat|Aqidatuna|12/12/2012
